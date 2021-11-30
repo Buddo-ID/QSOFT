@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 900px;
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        max-width: 768px;
+    }
+}
+@media (max-width:375px) {
+    .wrapper {
+        max-width: none;
+    }
+}
+
+a {
+    cursor: url(./img/cursor.png), pointer;;
+}
+
+.head {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1170px;
+}
+
+@media (max-width:768px) {
+    .head {
+        max-width: 728px;
+    }
+}
+@media (max-width:376px) {
+    .head {
+        max-width: 335px;
+    }
+}
+
+.head__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+}
+@media (max-width:376px) {
+    .head__container {
+        height: 105px;
+    }
+}
+
+.header__search {
+    padding-right: 25px;
+}
+
+@media (max-width:376px) {
+    .header__search {
+        padding-right: 0px;
+    }
+}
+
+.header__search_form {
+    position: relative;
+    width: 763px;
+    height: 40px;
+    margin: 0 auto;
+}
+@media (max-width:768px) {
+    .header__search_form {
+        width: 344px;
+    }
+}
+@media (max-width:376px) {
+    .header__search_form {
+        width: 375px;
+    }
+}
+
+.header__search_input {
+    width: 100%;
+    height: 100%;
+    padding-left: 39px;
+}
+
+.header__profil {
+    display: flex;
+    width: 129px;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 376px) {
+    .header__profil {
+        display: none;
+    }
+}
+
+.header__profil_txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #768298;
+}
+
+/*---------------------------------SECTION-------------------------------------*/
+
+.section {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1170px;
+}
+@media (max-width:768px) {
+    .section {
+        max-width: 728px;
+    }
+}
+@media (max-width:376px) {
+    .section {
+        max-width: 335px;
+    }
+}
+
+.section__container {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 46px;
+}
+@media (max-width:768px) {
+    .section__container {
+        padding-top: 53px;
+    }
+}
+
+.section__h1_txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#121920;
+    font-size: 36px;
+    text-transform: uppercase; 
+}
+@media (max-width:768px) {
+    .section__h1_txt {
+        font-size: 28px;
+    }
+}
+
+.section__label {
+    margin: 0 auto;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items:center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 38px;
+}
+@media (max-width:768px) {
+    .section__label {
+        gap: 20px;
+        margin-top: 35px;
+    }
+}
+
+.section__label_pic {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+@media (max-width:768px) {
+    .section__label_pic {
+        width: 229px;
+        height: 120px;
+    }
+    .section__label_gohnDeere {
+        width: 183px;
+        height: 34px;
+    }
+    .section__label_msDonalds {
+        width: 99px;
+        height: 74px;
+    }
+    .section__label_ikea {
+        width: 175px;
+        height: 70px;
+    }
+    .section__label_reebok {
+        width: 187px;
+        height: 38px;
+    }
+    .section__label_nike {
+        width: 143px;
+        height: 74px;
+    }
+    .section__label_caterpillar {
+        width: 196px;
+        height: 30px;
+    }
+}
+@media (max-width:376px) {
+    .section__label_pic {
+        width: 333px;
+        height: 140px;
+    }
+    .section__label_henkel {
+        width: 145px;
+        height: 82px;
+    }
+    .section__label_gohnDeere {
+        width: 234px;
+        height: 44px;
+    }
+    .section__label_msDonalds {
+        width: 100px;
+        height: 75px;
+    }
+    .section__label_ikea {
+        width: 194px;
+        height: 78px;
+    }
+    .section__label_reebok {
+        width: 232px;
+        height: 48px;
+    }
+    .section__label_nike {
+        width: 141px;
+        height: 74px;
+    }
+    .section__label_caterpillar {
+        width: 247px;
+        height: 38px;
+    }
+}
+
+.section__label_link {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #EBEBF1;
+    background-color: #FFF;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
